@@ -2,6 +2,9 @@ import java.util.*; /*Scanner is in the java.util package*/
 
 public class ComputeAreaWithConsoleInput {
     public static void main(String[] args) {
+        /*Declare a constant*/
+        final double PI = 3.14159;
+
         /*Create a Scanner object*/
         Scanner input = new Scanner(System.in);
 
@@ -10,7 +13,7 @@ public class ComputeAreaWithConsoleInput {
         double radius = input.nextDouble();
 
         /*Compute area*/
-        double area = radius * radius * 3.14159;
+        double area = radius * radius * PI;
 
         /*Display results*/
         System.out.println("The area for the circle of radius " +
